@@ -1,27 +1,67 @@
-🛒 Dashboard de Vendas – SuperStore (Power BI)
+📊 Projeto Power BI — Análise de Vendas (Superstore)
+📌 Visão Geral
 
-Este projeto apresenta uma análise completa das vendas do dataset SuperStore, utilizando Power BI, Power Query e modelagem dimensional.
-O objetivo é transformar os dados brutos em insights estratégicos sobre desempenho comercial, produtos, clientes e regiões.
+Este projeto tem como objetivo analisar o desempenho de vendas de uma empresa fictícia de varejo utilizando o dataset Sample Superstore, amplamente utilizado em projetos de Business Intelligence.
 
-🎯 Objetivos da Análise
+O foco está na construção de um dashboard interativo no Power BI, explorando indicadores de vendas, lucro, performance por região, categorias de produtos e comportamento ao longo do tempo.
 
-Identificar os principais fatores que influenciam as vendas
+🗂️ Base de Dados
 
-Medir lucros, margens e desempenho por categoria e subcategoria
+Fonte: Kaggle — Tableau Sample Superstore
 
-Avaliar tendências e sazonalidade ao longo do tempo
+Link: https://www.kaggle.com/datasets/truongdai/tableau-sample-superstore
 
-Descobrir produtos mais e menos lucrativos
+Formato: CSV
 
-Mapear o comportamento dos clientes
+Período: Dados históricos de pedidos
 
-Visualizar vendas por região e segmento
+Principais colunas
 
-📊 Principais KPIs
+Order ID, Order Date, Ship Date
 
-Total de Vendas (Revenue)
+Customer ID, Customer Name, Segment
 
-Lucro Total
+Product Name, Category, Sub-Category
+
+Region, State, City
+
+Sales, Profit, Quantity, Discount
+
+🏗️ Modelagem de Dados
+
+Foi aplicada uma modelagem dimensional (Star Schema) para melhor desempenho e clareza analítica:
+
+🔹 Tabela Fato
+
+Fato_Vendas
+
+Sales
+
+Profit
+
+Quantity
+
+Discount
+
+Chaves de relacionamento (Data, Produto, Cliente, Região)
+
+🔹 Tabelas Dimensão
+
+Dim_Tempo (Order Date, Year, Month, Quarter)
+
+Dim_Produto (Categoria, Subcategoria, Produto)
+
+Dim_Cliente (Cliente, Segmento)
+
+Dim_Região (Região, Estado, Cidade)
+
+📐 Métricas Criadas (DAX)
+
+Algumas medidas utilizadas no projeto:
+
+Total de Vendas
+
+Total de Lucro
 
 Margem de Lucro (%)
 
@@ -29,78 +69,82 @@ Quantidade Vendida
 
 Ticket Médio
 
-Top 10 Produtos
+Vendas YTD
 
-Top Clientes
+Lucro YTD
 
-Vendas por Região / Estado / Segmento
+Crescimento em relação ao período anterior
 
-🧩 Modelagem dos Dados
+📊 Dashboards Desenvolvidos
 
-Foi utilizada uma modelagem estrela (Star Schema):
+O relatório é composto por múltiplas páginas, incluindo:
 
-Fato_Vendas
-
-Dim_Produtos
-
-Dim_Clientes
-
-Dim_Região
-
-Dim_Tempo
-
-(Insira aqui a imagem do modelo quando estiver na pasta)
-![Modelo de Dados](imagens/modelo-dados.png)
-
-📈 Visuais do Dashboard
-Página 1 – Visão Geral
+Visão Geral
 
 KPIs principais
 
-Vendas por região
+Evolução de vendas e lucro
 
-Vendas e lucro por categoria
+Comparativos temporais
 
-Gráfico de linha (tendência mensal)
+Análise por Produto
 
-![Página 1](imagens/pagina1.png)
+Performance por categoria e subcategoria
 
-Página 2 – Produtos
+Produtos mais vendidos
 
-Top produtos mais vendidos
+Produtos com maior e menor lucro
 
-Produtos mais lucrativos
+Análise Geográfica
 
-Margem por categoria e subcategoria
+Vendas e lucro por região e estado
 
-Tabela detalhada
+Comparação regional
 
-![Página 2](imagens/pagina2.png)
+Análise de Clientes
 
-Página 3 – Clientes
+Segmentos
 
-Clientes com maior gasto
+Clientes mais rentáveis
 
-Vendas por segmento
+Distribuição de vendas por perfil
 
-Ticket médio
+🎯 Objetivos do Projeto
 
-Distribuição geográfica
+Aplicar conceitos de Business Intelligence
 
-![Página 3](imagens/pagina3.png)
+Praticar modelagem dimensional
+
+Desenvolver medidas DAX
+
+Criar dashboards claros, interativos e orientados à tomada de decisão
+
+Construir um projeto sólido para portfólio profissional
 
 🛠️ Ferramentas Utilizadas
 
-Power BI
+Power BI Desktop
 
 Power Query
 
 DAX
 
-Modelagem Dimensional
+Kaggle
 
-GitHub
+📌 Conclusões
 
-📥 Download do Arquivo
+O projeto permite identificar:
 
-➡️ Baixar o dashboard: SuperStore.pbix
+Regiões mais lucrativas
+
+Categorias com melhor desempenho
+
+Produtos com alto volume e baixa margem
+
+Tendências de vendas ao longo do tempo
+
+Essas análises apoiam decisões estratégicas relacionadas a mix de produtos, estratégia comercial e expansão regional.
+
+📎 Observações
+
+Este projeto é educacional e demonstrativo, utilizando dados públicos e fictícios, com foco em aprendizado e apresentação de habilidades em BI e análise de dados.
