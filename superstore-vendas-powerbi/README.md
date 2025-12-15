@@ -32,8 +32,7 @@ Sales, Profit, Quantity, Discount
 Foi aplicada uma modelagem dimensional (Star Schema) para melhor desempenho e clareza analítica:
 
 
-![Star Schema - Data Model](images/star_schema_model.png)
-
+images/star schemma.png
 
 🔹 Tabela Fato
 
