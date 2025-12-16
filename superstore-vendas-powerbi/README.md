@@ -96,7 +96,7 @@ Análise de vendas por categoria
 
 Análise de vendas por região
 
-![Dashboard - Visão Geral](images/dashboard_visaogeral.png)
+![Dashboard - Visão Geral](images/visaogeral.png)
 
 
 
