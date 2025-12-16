@@ -1,9 +1,9 @@
 📊 Projeto Power BI — Análise de Vendas (Superstore)
 📌 Visão Geral
 
-Este projeto tem como objetivo analisar o desempenho de vendas de uma empresa fictícia de varejo utilizando o dataset Sample Superstore, amplamente utilizado em projetos de Business Intelligence.
+Este projeto tem como objetivo analisar o desempenho de vendas de uma empresa fictícia de varejo utilizando o dataset Sample Superstore, amplamente utilizado em estudos e projetos de Business Intelligence.
 
-O foco está na construção de um dashboard interativo no Power BI, explorando indicadores de vendas, lucro, performance por região, categorias de produtos e comportamento ao longo do tempo.
+O foco do projeto é a construção de um dashboard interativo no Power BI, explorando indicadores de vendas, lucro, desempenho por região, categorias de produtos e comportamento ao longo do tempo, aplicando boas práticas de modelagem dimensional e DAX.
 
 🗂️ Base de Dados
 
@@ -13,7 +13,7 @@ Link: https://www.kaggle.com/datasets/truongdai/tableau-sample-superstore
 
 Formato: CSV
 
-Período: Dados históricos de pedidos
+Período: Dados históricos de pedidos de vendas
 
 Principais colunas
 
@@ -29,12 +29,7 @@ Sales, Profit, Quantity, Discount
 
 🏗️ Modelagem de Dados
 
-Foi aplicada uma modelagem dimensional (Star Schema) para melhor desempenho e clareza analítica:
-
-
-![Star Schema - Data Model](images/star_schema_model.png)
-
-
+Foi aplicada uma modelagem dimensional (Star Schema) visando melhor desempenho, organização e clareza analítica.
 
 🔹 Tabela Fato
 
@@ -48,79 +43,71 @@ Quantity
 
 Discount
 
-Chaves de relacionamento (Data, Produto, Cliente, Região)
+Chaves de relacionamento: Tempo, Produto, Cliente e Região
 
 🔹 Tabelas Dimensão
 
-Dim_Tempo (Order Date, Year, Month, Quarter)
+Dim_Tempo (Ano, Mês, Ano-Mês, Trimestre, Data)
 
 Dim_Produto (Categoria, Subcategoria, Produto)
 
 Dim_Cliente (Cliente, Segmento)
 
-Dim_Região (Região, Estado, Cidade)
+Dim_Região (Região – valores únicos)
+
+Dim_Vendedor (Gerente Regional, Região)
+
+As medidas foram organizadas em uma tabela dedicada (Medidas), seguindo boas práticas no Power BI.
 
 📐 Métricas Criadas (DAX)
 
-Algumas medidas utilizadas no projeto:
+Algumas das principais medidas desenvolvidas:
 
-Total de Vendas
+Total Sales
 
-Total de Lucro
+Total Profit
 
-Margem de Lucro (%)
+Profit Margin (%)
 
-Quantidade Vendida
+Total Orders
 
-Ticket Médio
+Quantity Sold
 
-Vendas YTD
+Average Ticket
 
-Lucro YTD
+Indicadores acumulados (YTD)
 
-Crescimento em relação ao período anterior
+Análises temporais e comparativas
 
 📊 Dashboards Desenvolvidos
 
-O relatório é composto por múltiplas páginas, incluindo:
+O relatório contém páginas analíticas, incluindo:
 
-Visão Geral
+🔹 Visão Geral
 
-KPIs principais
+KPIs principais (Vendas, Pedidos, Ticket Médio)
 
-Evolução de vendas e lucro
+Evolução de vendas e lucro ao longo do tempo (com drill-down)
 
-Comparativos temporais
+Análise de vendas por categoria
 
-Análise por Produto
+Análise de vendas por região
+
+🔹 Análises Complementares
 
 Performance por categoria e subcategoria
 
-Produtos mais vendidos
-
-Produtos com maior e menor lucro
-
-Análise Geográfica
-
-Vendas e lucro por região e estado
-
 Comparação regional
 
-Análise de Clientes
-
-Segmentos
-
-Clientes mais rentáveis
-
-Distribuição de vendas por perfil
+Análise por segmento de clientes
 
 🎯 Objetivos do Projeto
 
 Aplicar conceitos de Business Intelligence
 
-Praticar modelagem dimensional
+Praticar modelagem dimensional (Star Schema)
 
-Desenvolver medidas DAX
+Desenvolver medidas em DAX
 
 Criar dashboards claros, interativos e orientados à tomada de decisão
 
@@ -138,13 +125,13 @@ Kaggle
 
 📌 Conclusões
 
-O projeto permite identificar:
+O dashboard permite identificar, de forma clara:
 
-Regiões mais lucrativas
+Regiões com maior volume de vendas
 
-Categorias com melhor desempenho
+Categorias mais relevantes para o negócio
 
-Produtos com alto volume e baixa margem
+Diferenças de desempenho entre segmentos de clientes
 
 Tendências de vendas ao longo do tempo
 
@@ -152,7 +139,7 @@ Essas análises apoiam decisões estratégicas relacionadas a mix de produtos, e
 
 📎 Observações
 
-Este projeto é educacional e demonstrativo, utilizando dados públicos e fictícios, com foco em aprendizado e apresentação de habilidades em BI e análise de dados.
+Este projeto é educacional e demonstrativo, utilizando dados públicos e fictícios, com foco em aprendizado, prática de BI e apresentação de habilidades analíticas
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
