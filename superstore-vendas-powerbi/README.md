@@ -96,6 +96,11 @@ Análise de vendas por categoria
 
 Análise de vendas por região
 
+![Dashboard - Visão Geral](images/dashboard_visaogeral.png)
+
+
+
+
 🔹 Análises Complementares
 
 Performance por categoria e subcategoria
