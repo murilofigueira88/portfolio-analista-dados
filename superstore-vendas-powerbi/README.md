@@ -145,6 +145,12 @@ Tendências de vendas ao longo do tempo
 
 Essas análises apoiam decisões estratégicas relacionadas a mix de produtos, estratégia comercial e expansão regional.
 
+
+### 📂 Arquivo do Projeto
+
+O arquivo do Power BI (.pbix) está disponível na pasta `files/` deste repositório.
+
+
 📎 Observações
 
 Este projeto é educacional e demonstrativo, utilizando dados públicos e fictícios, com foco em aprendizado, prática de BI e apresentação de habilidades analíticas
@@ -183,6 +189,9 @@ Sales, Profit, Quantity, Discount
 🏗️ Data Modeling
 
 A dimensional data model (Star Schema) was applied to improve performance and analytical clarity.
+
+![Star Schema - Data Model](images/star_schema_model.png)
+
 
 🔹 Fact Table
 
@@ -261,6 +270,10 @@ Customer segments
 Top customers by revenue and profit
 
 Sales distribution by segment
+
+
+![Dashboard - Visão Geral](images/visaogeral.png)
+
 
 🎯 Project Objectives
 
