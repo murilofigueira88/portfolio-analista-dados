@@ -19,7 +19,7 @@ Aqui você encontra estudos de caso reais, dashboards, scripts de análise, auto
 **Habilidades:** ETL, DAX, modelagem dimensional, storytelling  
 **Resumo:** Criação de um dashboard interativo analisando desempenho de vendas, ticket médio, produtos e regiões.  
 👉 *Link do projeto*  
-👉 *Link do dashboard publicado*
+
 
 ---
 
