@@ -42,5 +42,51 @@ O projeto utiliza medidas focadas em **análise de crescimento e comparação te
 
 - Total Sales  
 - Total Profit  
-- Sales LY (Last
+- Sales LY (Last Year)  
+- Sales YTD  
+- Sales YTD LY  
+- Crescimento YoY (%)  
+- Crescimento MoM (%)  
+- Ticket Médio  
+- Variação Absoluta de Vendas  
 
+---
+
+## 📊 Dashboards Desenvolvidos
+
+### 🔹 Análise Temporal de Vendas
+
+O dashboard apresenta:
+
+- Evolução de vendas ao longo do tempo
+- Comparação Ano Atual vs Ano Anterior
+- Crescimento percentual (YoY e MoM)
+- Identificação de sazonalidade
+- KPIs de performance temporal
+
+*(Imagem do dashboard será adicionada após a conclusão da página)*
+
+---
+
+## 🎯 Objetivos do Projeto
+
+- Aprofundar o uso de **DAX para inteligência temporal**
+- Praticar análises comparativas (YoY, MoM, YTD)
+- Identificar tendências e padrões sazonais
+- Evoluir do BI descritivo para o BI analítico
+- Construir um projeto complementar ao portfólio profissional
+
+---
+
+## 🛠️ Ferramentas Utilizadas
+
+- Power BI Desktop  
+- Power Query  
+- DAX  
+- Kaggle  
+
+---
+
+## 📌 Observações
+
+Este projeto é **educacional e demonstrativo**, utilizando dados públicos e fictícios, com foco em aprendizado, aprofundamento técnico e apresentação de habilidades em análise de dados e Business Intelligence.
