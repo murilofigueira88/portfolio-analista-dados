@@ -6,6 +6,8 @@ Este projeto tem como objetivo realizar uma **análise temporal aprofundada** do
 
 Diferente de uma visão executiva tradicional, o foco aqui está em **comparações ao longo do tempo**, identificando crescimento, variações percentuais e padrões sazonais que apoiam a tomada de decisão estratégica.
 
+O gráfico permite comparar visualmente o desempenho do ano selecionado em relação ao ano anterior, evidenciando períodos de aceleração e desaceleração de vendas.
+
 ---
 
 ## 🗂️ Base de Dados
