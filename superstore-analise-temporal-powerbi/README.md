@@ -33,7 +33,7 @@ Foi aplicada uma **modelagem dimensional (Star Schema)**, garantindo melhor dese
 - Dimensões de Tempo, Produto, Cliente e Região
 - Tabela exclusiva para medidas DAX
 
-*(Imagem do modelo em estrela será adicionada após a finalização do modelo)*
+![Star Schema - Data Model](images/star_schema_model2.png)
 
 ---
 
