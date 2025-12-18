@@ -1,5 +1,5 @@
 📈 Projeto Power BI — Análise Temporal de Vendas (Superstore)
-
+(Arquivo disponível em "files")
 ## 📌 Visão Geral
 
 Este projeto tem como objetivo realizar uma **análise temporal aprofundada** do desempenho de vendas de uma empresa fictícia de varejo, utilizando o dataset **Sample Superstore**.
