@@ -65,7 +65,9 @@ O dashboard apresenta:
 - Identificação de sazonalidade
 - KPIs de performance temporal
 
-*(Imagem do dashboard será adicionada após a conclusão da página)*
+
+### 🔹 Análise Temporal (YoY)
+![Análise Temporal YoY](images/dashboard_visao_geral2.png)
 
 ---
 
