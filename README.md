@@ -51,7 +51,7 @@ comportamento do cliente, logística, receita e satisfação.
 - Análise por categoria de produto
 
 **Tecnologias:** Python, Pandas, Matplotlib, Git  
-🔗 Repositório: *(link do projeto)*
+🔗 Repositório: [*(link do projeto)*](https://github.com/murilofigueira88/olist-analise-dados)
 
 ---
 
@@ -64,7 +64,7 @@ problemas de negócio, gerar insights e apoiar decisões estratégicas.
 
 ## 📫 Contato
 
-- **LinkedIn:** *(seu link aqui)*  
+- **LinkedIn:** [*(seu link aqui)*](https://www.linkedin.com/in/murilo-barros-543530374/)  
 - **GitHub:** https://github.com/murilofigueira88
 
 ## 📬 Contato
