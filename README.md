@@ -2,62 +2,70 @@
 
 **Analista de Dados | Power BI | SQL | Python**
 
-Bem-vindo ao meu portfólio de **Análise de Dados e Business Intelligence**.  
-Aqui você encontrará projetos práticos que demonstram minha capacidade de **transformar dados em insights**, utilizando boas práticas de modelagem, análise e visualização.
+Sou Analista de Dados com foco em transformar dados em insights acionáveis,
+utilizando Python, SQL e ferramentas de BI para apoiar a tomada de decisão.
+
+Este repositório reúne projetos práticos de análise de dados, desenvolvidos
+a partir de datasets reais, com foco em organização, clareza analítica
+e storytelling de negócio.
 
 ---
 
-## 🧠 Principais Competências
+## 🧠 Habilidades Técnicas
 
-- 📊 **Power BI** (Modelagem Dimensional, DAX, Dashboards)
-- 🐍 **Python** (Pandas, NumPy, Matplotlib, Seaborn)
-- 🧮 **SQL** (MySQL, SQL Server, PostgreSQL)
-- 🧹 **ETL & Transformação de Dados**
-- 📈 **Storytelling com Dados**
-- 📊 **Estatística Básica e Machine Learning Introdutório**
-
----
-
-## 🚀 Projetos em Destaque
-
-### 1️⃣ Dashboard de Vendas — Power BI
-**Habilidades:** ETL, DAX, Modelagem Dimensional (Star Schema), Storytelling  
-**Resumo:** Desenvolvimento de um dashboard interativo para análise de desempenho de vendas, ticket médio, categorias de produtos e regiões.
-
-👉 [Acessar projeto](./superstore-vendas-powerbi)
+- **Linguagens:** Python, SQL  
+- **Bibliotecas:** Pandas, NumPy, Matplotlib, Seaborn  
+- **BI & Visualização:** Power BI  
+- **Banco de Dados:** MySQL, PostgreSQL  
+- **Outros:** Git, GitHub, Jupyter Notebook
 
 ---
 
-### 2️⃣ Análise Temporal de Vendas — Power BI
-**Habilidades:** DAX avançado, Análise YoY e MoM, KPIs temporais  
-**Resumo:** Análise focada em crescimento e performance ao longo do tempo, comparando vendas atuais com períodos anteriores e identificando padrões sazonais.
+## 📁 Projetos em Destaque
 
-👉 [Acessar projeto](./superstore-analise-temporal-powerbi)
+### 🔹 Projeto 1 — Superstore BI
+📊 Dashboard interativo desenvolvido no Power BI para análise de vendas,
+margem de lucro e desempenho por categoria e região.
 
----
-
-### 3️⃣ Análise Exploratória de Dados — E-commerce (Python)
-**Habilidades:** Pandas, limpeza de dados, visualização, geração de insights  
-**Resumo:** Tratamento e análise de um dataset de e-commerce para identificar produtos mais vendidos, comportamento de clientes e sazonalidade.
-
-👉 *Em breve*
+**Tecnologias:** Power BI, Modelagem Dimensional  
+🔗 Repositório: *(link do projeto)*
 
 ---
 
-### 4️⃣ SQL Case Study — RH
-**Habilidades:** Joins, Subqueries, Window Functions, KPIs  
-**Resumo:** Estudo de caso simulando análises de indicadores de RH utilizando SQL.
+### 🔹 Projeto 2 — Análise Temporal de Vendas
+📈 Análise de séries temporais utilizando Python para identificar tendências,
+sazonalidade e padrões de comportamento ao longo do tempo.
 
-👉 *Em breve*
+**Tecnologias:** Python, Pandas, Matplotlib  
+🔗 Repositório: *(link do projeto)*
+
+---
+
+### 🔹 Projeto 3 — E-commerce Brasileiro (Olist)
+🛒 Análise exploratória de dados de um e-commerce brasileiro, com foco em
+comportamento do cliente, logística, receita e satisfação.
+
+**Principais análises:**
+- Evolução de pedidos e receita
+- Impacto do tempo de entrega na avaliação
+- Análise por categoria de produto
+
+**Tecnologias:** Python, Pandas, Matplotlib, Git  
+🔗 Repositório: *(link do projeto)*
 
 ---
 
-## 📚 Sobre Mim
+## 🎯 Objetivo Profissional
 
-Sou um analista de dados apaixonado por **resolver problemas com dados**.  
-Atualmente estou em constante evolução técnica, desenvolvendo projetos práticos para consolidar conhecimentos em **Power BI, SQL e Python**, com foco no ciclo completo de análise: da extração ao insight.
+Atuar como Analista de Dados / BI, aplicando análise de dados para resolver
+problemas de negócio, gerar insights e apoiar decisões estratégicas.
 
 ---
+
+## 📫 Contato
+
+- **LinkedIn:** *(seu link aqui)*  
+- **GitHub:** https://github.com/murilofigueira88
 
 ## 📬 Contato
 
