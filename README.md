@@ -28,7 +28,7 @@ e storytelling de negócio.
 margem de lucro e desempenho por categoria e região.
 
 **Tecnologias:** Power BI, Modelagem Dimensional  
-🔗 Repositório: https://github.com/murilofigueira88/portifolio-analista-dados/tree/main/superstore-vendas-powerbi
+🔗 Repositório: https://github.com/murilofigueira88/portfolio-analista-dados/tree/main/superstore-vendas-powerbi
 
 
 
@@ -41,7 +41,7 @@ margem de lucro e desempenho por categoria e região.
 sazonalidade e padrões de comportamento ao longo do tempo.
 
 **Tecnologias:** Python, Pandas, Matplotlib  
-🔗 Repositório: https://github.com/murilofigueira88/portifolio-analista-dados/tree/main/superstore-analise-temporal-powerbi
+🔗 Repositório: https://github.com/murilofigueira88/portfolio-analista-dados/tree/main/superstore-analise-temporal-powerbi
 
 
 
