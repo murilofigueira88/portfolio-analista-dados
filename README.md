@@ -28,7 +28,7 @@ e storytelling de negócio.
 margem de lucro e desempenho por categoria e região.
 
 **Tecnologias:** Power BI, Modelagem Dimensional  
-🔗 Repositório: https://github.com/murilofigueira88/portifolio-analista-dados-PORTFOLIO/tree/main/superstore-vendas-powerbi
+🔗 Repositório: https://github.com/murilofigueira88/portifolio-analista-dados/tree/main/superstore-vendas-powerbi
 
 
 
