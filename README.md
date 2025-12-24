@@ -32,6 +32,8 @@ margem de lucro e desempenho por categoria e região.
 
 
 
+
+
 ---
 
 ### 🔹 Projeto 2 — Análise Temporal de Vendas
