@@ -45,6 +45,7 @@ sazonalidade e padrões de comportamento ao longo do tempo.
 
 
 
+
 ---
 
 ### 🔹 Projeto 3 — E-commerce Brasileiro (Olist)
