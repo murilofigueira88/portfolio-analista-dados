@@ -61,7 +61,23 @@ comportamento do cliente, logística, receita e satisfação.
 🔗 Repositório: [*(link do projeto)*](https://github.com/murilofigueira88/olist-analise-dados)
 
 ---
+### 🛒 Projeto 4 — Análise de Dados em SQL (E-commerce Olist)
 
+**Descrição:**  
+Análise de dados de um e-commerce brasileiro utilizando SQL (MySQL), com foco em métricas de negócio, performance operacional e geração de insights.
+
+**Principais análises:**
+- Receita por categoria de produto
+- Ticket médio
+- Pedidos por status
+- Tempo de entrega x avaliação
+- Top categorias por faturamento
+
+**Tecnologias:**  
+SQL (MySQL), MySQL Workbench, GitHub
+
+🔗 **Repositório:**  
+https://github.com/murilofigueira88/olist-analise-sql
 ## 🎯 Objetivo Profissional
 
 Atuar como Analista de Dados / BI, aplicando análise de dados para resolver
